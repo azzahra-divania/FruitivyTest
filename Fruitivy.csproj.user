@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Checkout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EditBarang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Item.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Keranjang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ListItemDijual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ListItemUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LoginSignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ListItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PesananBerhasil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RiwayatPemesanan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TambahBarang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
