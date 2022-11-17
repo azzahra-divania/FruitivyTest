@@ -1,0 +1,76 @@
+1. Page Edit Barang 
+- Nama Produk 
+- Deskripsi 
+- Harga 
+- Gambar
+> Operasi : Read Produk (ProdukId)+ Update Produk(ProdukId)
+
+2. Forgot Password 
+- Email
+- New Password 
+> Operasi : Read Pengguna(Email) + Update Pengguna(New Password)
+
+3. Item 
+- Gambar 
+- Nama Produk 
+- Nama toko = Nama pengguna 
+- Harga 
+- Subtotal (hargaxjumlah)
+- Deskripsi 
+- Jumlah 
+> Operasi : Read Produk(IdProduk)
+
+4. Keranjang 
+- Nama Produk 
+- Gambar 
+- Harga 
+- Jumlah 
+- Subtotal
+- TotalHarga
+> Operasi : Read Produk(PenggunaId)
+
+5. ListItem 
+- Nama Produk
+- Harga 
+- Gambar
+> Operasi: Read Produk
+
+6. ListItemDijual 
+- NamaToko ( Username Pengguna = penjual )
+- Gambar 
+- Nama Produk 
+- Harga : Read Produk(PenggunaId)
+
+7. ListItemUser 
+- Nama Produk 
+- Harga 
+- Gambar
+
+
+8. a. Login 
+- Role 
+- Username 
+- Password
+> Operasi : Read Pengguna (Role, Username, Password)
+
+b. SIgn Up 
+- Role 
+- Username 
+- Email 
+- Password 
+> Operasi : Create Pengguna (Role, Username, Email, Password)
+
+9. Riwayat Pemesanan
+- Namaproduk 
+- Gambar 
+- NamaToko = (username pnejual)
+- Total Harga
+- Status Produk ?? 
+> Operasi : Read Produk (PenggunaId)
+
+10. Tambah barang : 
+- Nama Produk 
+- Deskripsi 
+- Harga 
+- Gambar
+> Operasi : Create Produk (Nama, Deskripsi, Harga, gambar)
